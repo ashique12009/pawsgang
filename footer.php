@@ -12,19 +12,23 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'pawsgang' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'pawsgang' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'pawsgang' ), 'pawsgang', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
+		<div class="bg-primary text-white pt-5 pb-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-2">About</div>
+					<div class="col-2">Company</div>
+					<div class="col-md-4 ms-auto">Keep in touch</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row d-flex align-item-center">
+				<div class="col">
+					<p>&copy; <?php bloginfo( 'name' );?> <?php echo date('Y');?> / Created by <a href="mailto:ashique12009@gmail.com">ashique12009@gmail.com</a></p>
+				</div>
+			</div>
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

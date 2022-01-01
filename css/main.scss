@@ -21,6 +21,10 @@ $theme-colors: map-merge($theme-colors, $custom-colos);
 
 // Then add additional custom code here
 
+body.page{
+    margin: 0;
+}
+
 /******************* HEADER *********************/
 .announcement-bar{
     font-size: 12px;

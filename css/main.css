@@ -11332,6 +11332,10 @@ fieldset:disabled .btn {
   }
 }
 
+body.page {
+  margin: 0;
+}
+
 /******************* HEADER *********************/
 .announcement-bar {
   font-size: 12px;
