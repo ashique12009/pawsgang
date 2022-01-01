@@ -37,3 +37,14 @@ $theme-colors: map-merge($theme-colors, $custom-colos);
         padding: 5px;
     }
 }
+
+/************ MENU ****************/
+.main-navigation{
+    a{
+        color: white;
+        padding: 5px 25px;
+    }
+    .current-menu-item{
+        background-color: rgb(149, 33, 149);
+    }
+}
