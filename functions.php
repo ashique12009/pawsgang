@@ -147,6 +147,9 @@ function pawsgang_scripts() {
 	wp_style_add_data( 'pawsgang-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'pawsgang-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'pawsgang-popper', 'https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js', array('jquery') );
+	wp_enqueue_script( 'pawsgang-bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js', array('jquery') );
+	wp_enqueue_script( 'pawsgang-custom-script', get_template_directory_uri() . '/js/script.js' );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

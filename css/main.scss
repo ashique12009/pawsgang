@@ -48,3 +48,11 @@ $theme-colors: map-merge($theme-colors, $custom-colos);
         background-color: rgb(149, 33, 149);
     }
 }
+
+/************* HOME PAGE MAIN SLIDER ***********/
+.home-page-main-slider{
+    .carousel-item img{
+        max-height: 300px;
+        object-fit: cover;
+    }
+}

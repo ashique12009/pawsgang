@@ -11361,4 +11361,11 @@ fieldset:disabled .btn {
 .main-navigation .current-menu-item {
   background-color: #952195;
 }
+
+/************* HOME PAGE MAIN SLIDER ***********/
+.home-page-main-slider .carousel-item img {
+  max-height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 /*# sourceMappingURL=main.css.map */
