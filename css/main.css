@@ -11368,4 +11368,9 @@ fieldset:disabled .btn {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+/*********** HOME PAGE CATEGORY SECTION **********/
+.product-categories {
+  background-color: #f9f9f9;
+}
 /*# sourceMappingURL=main.css.map */

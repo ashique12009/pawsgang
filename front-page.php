@@ -54,6 +54,28 @@ get_header();
 				<?php echo do_shortcode( '[products column=4 limit=4]' );?>
 			</div>
 		</section>
+
+		<section class="container-fluid product-categories">
+			<div class="container">
+				<div class="row d-flex justify-content-center">
+					<h1 class="text-center pt-5">Categories</h1>
+					<p class="w-25 text-center">We offer a number of high quality toys. We offer a number of high quality toys.We offer a number of high quality toys.We offer a number of high quality toys.</p>
+				</div>
+				<div class="pt-5 pb-5">
+					<?php echo do_shortcode( '[products column=4 limit=4]' );?>
+				</div>
+			</div>			
+		</section>
+
+		<section class="container product-special-offers">
+			<div class="row d-flex justify-content-center">
+				<h1 class="text-center pt-5">Special offers</h1>
+				<p class="w-25 text-center">We offer a number of high quality toys. We offer a number of high quality toys.We offer a number of high quality toys.We offer a number of high quality toys.</p>
+			</div>
+			<div class="pt-5 pb-5">
+				<?php echo do_shortcode( '[sale_products column=4 limit=4]' );?>
+			</div>
+		</section>
 	</main><!-- #main -->
 
 <?php
