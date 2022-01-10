@@ -48,7 +48,7 @@ get_header();
 		<section class="container popular-products">
 			<div class="row d-flex justify-content-center">
 				<h1 class="text-center pt-5">Popular Products</h1>
-				<p class="w-25 text-center">We offer a number of high quality toys. We offer a number of high quality toys.We offer a number of high quality toys.We offer a number of high quality toys.</p>
+				<p class="w-25 text-center">We offer a number of high quality toys. We offer a number of high quality toys.We offer a number of high quality toys. We offer a number of high quality toys.</p>
 			</div>
 			<div class="pt-5 pb-5">
 				<?php echo do_shortcode( '[products column=4 limit=4]' );?>
@@ -59,7 +59,7 @@ get_header();
 			<div class="container">
 				<div class="row d-flex justify-content-center">
 					<h1 class="text-center pt-5">Categories</h1>
-					<p class="w-25 text-center">We offer a number of high quality toys. We offer a number of high quality toys.We offer a number of high quality toys.We offer a number of high quality toys.</p>
+					<p class="w-25 text-center">We offer a number of high quality toys. We offer a number of high quality toys.We offer a number of high quality toys. We offer a number of high quality toys.</p>
 				</div>
 				<div class="pt-5 pb-5">
 					<?php echo do_shortcode( '[products column=4 limit=4]' );?>
@@ -70,7 +70,7 @@ get_header();
 		<section class="container product-special-offers">
 			<div class="row d-flex justify-content-center">
 				<h1 class="text-center pt-5">Special offers</h1>
-				<p class="w-25 text-center">We offer a number of high quality toys. We offer a number of high quality toys.We offer a number of high quality toys.We offer a number of high quality toys.</p>
+				<p class="w-25 text-center">We offer a number of high quality toys. We offer a number of high quality toys.We offer a number of high quality toys. We offer a number of high quality toys.</p>
 			</div>
 			<div class="pt-5 pb-5">
 				<?php echo do_shortcode( '[sale_products column=4 limit=4]' );?>

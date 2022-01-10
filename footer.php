@@ -23,7 +23,7 @@
 		</div>
 
 		<div class="container">
-			<div class="row d-flex align-item-center">
+			<div class="row d-flex align-item-center text-center mt-2">
 				<div class="col">
 					<p>&copy; <?php bloginfo( 'name' );?> <?php echo date('Y');?> / Created by <a href="mailto:ashique12009@gmail.com">ashique12009@gmail.com</a></p>
 				</div>
